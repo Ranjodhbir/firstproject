@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+  <suite name="Bollosk Test Suit" configfailurepolicy="continue">
+
+
+  <test name = "DD">
+    <classes>
+      <class name="base.NewTest"/>
+     <class name="base.TestBase"/>
+    </classes>
+  
+  </test>
+   <!-- Test -->
+</suite> <!-- Suite -->

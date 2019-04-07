@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [Bollosk Test Suit]">
+  <test thread-count="5" name="DD(failed)">
+    <classes>
+      <class name="base.NewTest">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- base.NewTest -->
+    </classes>
+  </test> <!-- DD(failed) -->
+</suite> <!-- Failed suite [Bollosk Test Suit] -->
